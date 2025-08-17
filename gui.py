@@ -75,7 +75,7 @@ def read():
         messagebox.showerror("Error", "Failed to display data.")
 
 
-# Result Label INput ki Value Clear Karne ke Liye
+
 result_label = tk.Label(root, text="", justify="left", anchor="w")
 result_label.pack(anchor="w", padx=20, pady=0)
 result_label.place(x=20, y=300)
@@ -149,5 +149,6 @@ tk.Button(root, text="Display Users", command=read).place(x=100, y=250)
 tk.Button(root, text="Update", command=update).place(x=220, y=250)
 tk.Button(root, text="Delete", command=delete).place(x=320, y=250)
 
-# App Run Yaha Hoga
+
 root.mainloop()
+
